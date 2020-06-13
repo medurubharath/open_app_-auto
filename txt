@@ -1,0 +1,26 @@
+task schedular
+
+
+general ->  run only when user is lohhed on
+            tick run with highest privileges
+            tick hidden
+            
+            
+Triggers --> on workstation unlock
+            any user
+            delay task for 1 min
+            enable
+       
+ Action--> script - python exe location
+           add  -  filelocation
+          
+conditions -->
+              start only if network is available
+              any connetion
+              
+settings-->
+            allow task to be run on demand
+            stop the task
+            if the running task does not end when requested force it to stop
+
+            run a new instance in parallel
